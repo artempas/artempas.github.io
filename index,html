@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="https://calltracking.mcn.ru/widget/mcn-tracker-widget.js"></script>
+  <script>
+     mcnTrackerWidget.initWidget(
+      { 
+        token: "40cb2db8-ff72-420e-9331-fbc2cdcccda8", 
+        id: "phone",
+        ya_tracker_id: "undefined",
+        format:"3-digit-plus-bracket",
+        domain:"calltracking.mcn.ru",
+      });
+  </script>
+  </head>
+  <body>
+    <script>
+  window.tokenMCN = '75d697af25';
+</script>
+<script type="text/javascript" src="https://messaging.mcn.ru/widget"></script>
+    <h2>before</h2>
+    <h1>+7(999)999-99-99</h1>
+    <br>
+    <h2>after</h2>
+    <h1 id="phone">+7(999)999-99-99</h1>
+    <h2>{{get_params}}</h2>
+    <a href='#widget'>OPEN MULTICHAT</a>
+  </body>
+</html>
