@@ -30,6 +30,11 @@
     <script>
       var search = location.search.substring(1);
       document.getElementById('params').innerHTML='{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) };
-    </script>    <a href='#widget'>OPEN MULTICHAT</a>
+    </script>    
+    <h2 id="ref"></h2>
+    <script>
+      document.getElementById("ref").innerHTML="ref="+document.referrer;
+    </script>
+    <a href='#widget'>OPEN MULTICHAT</a>
   </body>
 </html>
